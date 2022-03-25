@@ -28,15 +28,6 @@ img {
     font-size: 1em;
     font-weight: 400;
 }
-.quant {
-    /* font-weight: 700; */
-    font-size:0.8em;
-}
-
-.price {
-    font-style: italic;
-    font-size: 0.8em;
-}
 
 .contactlist-container {
     display: flex;
