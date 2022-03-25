@@ -1,18 +1,29 @@
-.prodTile {
+.contactTile {
     background-color:rgba(221, 228, 241, 0.472);
     opacity: 1;
     padding: 15px;
     border: 3px solid black;
     border-radius: 1em;
-    box-shadow: 10px 10px 5px black;
     margin: 1em;
+    width: fit-content;
 }
-.title {
+
+img {
+    width: 10em;
+    height: 10em;
+}
+
+.name {
     /* text-decoration: underline; */
     font-weight: 700;
     font-size:1.2em;
 }
-.description {
+.email {
+    font-style: italic;
+    font-size: 1em;
+    font-weight: 400;
+}
+.phone {
     font-style: italic;
     font-size: 1em;
     font-weight: 400;
@@ -27,7 +38,7 @@
     font-size: 0.8em;
 }
 
-.prodlist-container {
+.contactlist-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
