@@ -1,12 +1,11 @@
 
 
-const Contact = () => {
+const Contact = function(props) {
     return(
         <div className='prodTile'>
+            <img src={props.image}/>
             <header className='name'>{props.firstName}</header>
             <header className='name'>{props.lastName}</header>
-
-            <img src={props.image}/>
             <div className='description'>{props.email}</div>
             <div className='description'>{props.phone}</div>
 

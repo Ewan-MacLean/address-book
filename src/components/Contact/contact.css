@@ -1,0 +1,35 @@
+.prodTile {
+    background-color:rgba(221, 228, 241, 0.472);
+    opacity: 1;
+    padding: 15px;
+    border: 3px solid black;
+    border-radius: 1em;
+    box-shadow: 10px 10px 5px black;
+    margin: 1em;
+}
+.title {
+    /* text-decoration: underline; */
+    font-weight: 700;
+    font-size:1.2em;
+}
+.description {
+    font-style: italic;
+    font-size: 1em;
+    font-weight: 400;
+}
+.quant {
+    /* font-weight: 700; */
+    font-size:0.8em;
+}
+
+.price {
+    font-style: italic;
+    font-size: 0.8em;
+}
+
+.prodlist-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}

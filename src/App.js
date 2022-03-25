@@ -1,6 +1,6 @@
 import './App.css';
-import Contact from './components/Contact/contact';
 import ContactList from './components/ContactList/contactList';
+import { useState, useEffect } from 'react';
 
 function App() {
 
@@ -9,6 +9,7 @@ function App() {
   useEffect(()=>{
     fetch('http://localhost:3000/contacts').then(x=>x.json().then(x=>setData(x)))
   },[])
+  
   return (
     <div className="App">
       <ContactList contacts={data}/>
