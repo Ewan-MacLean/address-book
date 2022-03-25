@@ -1,5 +1,6 @@
 import './App.css';
 import ContactList from './components/ContactList/contactList';
+import AddNewContact from './components/AddNewContact/addNewContact';
 import { useState, useEffect } from 'react';
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
     <div className="App">
       <h1>My Contacts</h1>
       <ContactList contacts={data}/>
-      {/* <AddNewContact/> */}
+      <AddNewContact/>
     </div>
   )
 }
